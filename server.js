@@ -30,7 +30,7 @@ app.use(express.json());
 // app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to the CRUD app" });
+  res.json({ message: "Welcome to the CRUD app!!!" });
 });
 
 require("./routes/record.route")(app);
